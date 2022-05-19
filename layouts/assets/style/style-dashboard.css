@@ -1,0 +1,134 @@
+html{
+    padding: 0 15%;
+}
+body{
+    background: url("../img/bg.jpg");
+    background-size: cover;
+}
+.container{
+    position: fixed;
+    z-index: 1;
+}
+
+.header img{
+    width: 929px;
+    height: 106px;
+}
+
+.header {
+    text-align: center;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+}
+
+.navigasi{
+    text-align: left;
+    padding: 0 0;
+    background-color: black;
+    height: 40px;
+    position: relative;
+    bottom: 20px;
+}
+
+.navigasi ul a{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    top: 8px;
+    right: 20px;
+    margin: 0 10px;
+}
+
+.navigasi ul :hover{
+    color: rgb(0, 17, 255);
+    transition: .5s;
+}
+
+.navigasi ul a li{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+
+.logout{
+    float: right;
+    position: relative;
+    bottom: 70px;
+    right: 20px;
+}
+
+.logout ul :hover{
+    color: rgb(255, 6, 6);
+    transition: .5s;
+}
+
+.logout a{
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: bolder;
+}
+
+.logout ul li{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    margin: 0;
+}
+
+.logout img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+
+.main{
+    width: 99.3%;
+    text-align: center;
+    padding: 20px 0;
+    height: 500px;
+    border-style: double;
+    border-radius: 20px;
+    background-color: rgb(155, 155, 155);
+    margin-bottom: 20px;
+    position: relative;
+    top: 150px;
+}
+
+.main h1{
+    width: 100%;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.gambar{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    right: 20px;
+}
+
+.gambar ul li{
+    list-style: none;
+    display: inline-block;
+    border-style: solid;
+}
+
+.gambar img{
+    width: 250px;
+    height: 150px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding: 20px 0;
+    position: relative;
+    top: 150px;
+}
